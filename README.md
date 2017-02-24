@@ -7,7 +7,7 @@ Project repository for CS 207, winter 2017
 Here is a list of all the contents of this project:
 
 * **/hardware** - All the design files and circuit diagrams.
-* **/images ** - Where all the images are stored.
+* **/images** - Where all the images are stored.
 * **/results** - All the test videos and results.
 * **/build** - The completed arduino files.
 * **/README.md** - The README file.
