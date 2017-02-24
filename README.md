@@ -34,6 +34,9 @@ Bill of Materials for V1.0:
 ==================
 V1:
 
+
+[pic1]: https://github.com/ward208k/CS207_Project/blob/master/images/unspecified.jpg "V1-0"
+
 Button set up:
 
 1. Attach 4 push-buttons to a bread board
