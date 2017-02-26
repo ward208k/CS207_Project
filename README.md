@@ -80,7 +80,9 @@ V2:
 //![alt tag](https://github.com/ward208k/CS207_Project/blob/master/images/V2-0.jpg)
 
 Solenoid valve setup:
-1. I would recommend watching this video as it
+1. I would recommend watching this video as it explains how to wire a solonoid valve correctly
+[![valves](http://img.youtube.com/watch?v=_tby5VuvNuk)](https://www.youtube.com/watch?v=_tby5VuvNuk)
+
 # Usage
 =====
 
