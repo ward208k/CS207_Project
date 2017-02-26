@@ -30,12 +30,26 @@ Bill of Materials for V1.0:
 * 1 or more x breadboard(s)
 * 1 x Arduino UNO
 
+Bill of Materials for V2.0:
+* a reasonable ammount of air hose (1/4")
+* 1 x 9 volt- 5 way 2 state solenoid valve (cic 4V220-08FT)
+* 1 x Momentary toggle switch (ON - OFF - ON)
+* 1 x 9 battery (and a 9 volt battery connecter, although you can hardwire it)
+* 5 ft Red wire (16 - 20 Gauge)
+* 5 ft Black wire (16 - 20 Gauge)
+* 1 x Phillips screwdriver 
+* 1 x MAL 20 x 150 pnumatic piston (cic 8188195)
+* 2 x Pnumatic scilencers
+* 3 x 1/4" NPT speed controller
+* 1 x 1/4" Hose to screw adapter
+* 1 x Air compresser and a air compresser to 1/4" tube adapter (varies based on your compresser)
+
 # Build Instructions
 ==================
 V1:
 
 
-![alt tag](https://github.com/ward208k/CS207_Project/blob/master/images/unspecified.jpg)
+![alt tag](https://github.com/ward208k/CS207_Project/blob/master/images/V1-0.jpg)
 
 Button set up:
 
@@ -59,6 +73,14 @@ Code:
 3. Upload the file to your Arduino
 The above code should now be uploaded and exhibit basic input/output
 
+
+V2:
+
+
+//![alt tag](https://github.com/ward208k/CS207_Project/blob/master/images/V2-0.jpg)
+
+Solenoid valve setup:
+1. I would recommend watching this video as it
 # Usage
 =====
 
