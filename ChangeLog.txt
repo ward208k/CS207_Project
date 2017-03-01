@@ -1,0 +1,6 @@
+March 3, 2017:
+- Created changelog file
+    All changes priour to this will not be documented
+    
+- Set up air piston system for first tests
+    Will not commence testing until I get a proper air compressor (the one I planned to use nearly exploded during a test run)
