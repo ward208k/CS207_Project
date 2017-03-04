@@ -4,3 +4,11 @@ March 3, 2017:
     
 - Set up air piston system for first tests
     Will not commence testing until I get a proper air compressor (the one I planned to use nearly exploded during a test run)
+
+
+March 4, 2017:
+- Got more parts for the air piston system
+    It now has two working pistons and solenoid valves, but they were out of stock, so I will finish when they have more
+    
+- Testd how much weight was needed to press the dance pad tiles
+    It takes about 14 pounds to trigger it, much less than the pistons can push
