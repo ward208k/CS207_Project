@@ -12,3 +12,7 @@ March 4, 2017:
     
 - Testd how much weight was needed to press the dance pad tiles
     It takes about 14 pounds to trigger it, much less than the pistons can push
+
+
+March 5, 2017
+- Measured, cut, and assembled the body that will sit over the pad
