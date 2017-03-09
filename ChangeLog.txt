@@ -21,3 +21,6 @@ March 5, 2017
 March 7, 2017
 - Trimmed two legs that were slightly too big
 - Measured and marked the piston mounting location on the body
+
+March 9, 2017
+- Attached one piston and valve to the body with proper tubing
