@@ -28,5 +28,10 @@ March 9, 2017
 March 11, 2017
 - 3 of 4 pistons attached (the last one is yet to come in)
 - 2 of 4 valves attached (two yet to come in)
-- Tested the two mounted to see if the game responds to the pistons
-    -Will post video of that soon
+
+March 12, 2017
+- Got final piston and attached it to the body
+- Got final two valves and wired one of them
+    -I had to bite the bullet on this and buy the more expensive 5 way 3 position valves. Oh well
+    -I cut my hand while stripping the wires, and am going heal before wiring the second valve
+- Still need two more brass silencers and two more connecters.  Almoast ready for the arduino connection test
