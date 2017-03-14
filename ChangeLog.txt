@@ -35,3 +35,10 @@ March 12, 2017
     -I had to bite the bullet on this and buy the more expensive 5 way 3 position valves. Oh well
     -I cut my hand while stripping the wires, and am going heal before wiring the second valve
 - Still need two more brass silencers and two more connecters.  Almoast ready for the arduino connection test
+
+March 13, 2017
+- Wired and installed the two new valves
+- Preformed a base test and checked for air leaks
+    -Discovered no leaks and all pistons and valves workflawlessly
+- Will preform a human controlled game test to measure pressure and lag of the pistons
+- Version 2.0 is almoast complete!
