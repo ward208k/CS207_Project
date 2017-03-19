@@ -39,7 +39,7 @@ March 12, 2017
 March 13, 2017
 - Wired and installed the two new valves
 - Preformed a base test and checked for air leaks
-    -Discovered no leaks and all pistons and valves workflawlessly
+    -Discovered no leaks and all pistons and valves work great
 - Will preform a human controlled game test to measure pressure and lag of the pistons
 - Version 2.0 is almoast complete!
 
@@ -48,3 +48,7 @@ March 16, 2017
     -Still have not got one working.
 -Taped pins to the bare wire to allow breadboarding
     -Will solder when I get access to an iron
+ 
+ March 19, 2017
+ - Soldered pins to all the wires
+   
