@@ -51,4 +51,9 @@ March 16, 2017
  
  March 19, 2017
  - Soldered pins to all the wires
+ 
+ March 20, 2017
+ - Tried to get the transistors working again to no avail
+    -Probably some stupid mistake, but I cannot figure it out
+    -Will talk to Trevor Tomesh after class tomorrow to see if he has any idea
    
