@@ -57,3 +57,17 @@ March 16, 2017
     -Probably some stupid mistake, but I cannot figure it out
     -Will talk to Trevor Tomesh after class tomorrow to see if he has any idea
    
+March 22, 2017
+- Got a computer power supply to provide 12V to each valve.
+    -Wired, taped, and tested all to success!
+    
+MAJOR UPDATE
+    -This project due to time constraints and my lack of skill, will no longer be autonomous.
+    It will be controlled by an infrared remote that will send signals to the arduino.
+    While this is not what the project was supposed to be, it will be more sucessful this way.
+    
+    That being changed, the project will only consist of two versions now.
+    
+    This will be the last update to ChangeLog.txt, as the rest of the project will be done through code.
+    
+    Thank you for reading about my project's progress.
