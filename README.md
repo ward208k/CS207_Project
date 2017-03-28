@@ -116,6 +116,14 @@ all are working properly and that everything is connected correctly.  Simply pre
 valve and see if you get feedback.  You can also use a 9 volt battery to test the wires, although you will
 not be able to use a 9 volt battery for the final project.
 
+The valves work in three states: idle, push and pull.  See below for the diagrams.
+
+![alt tag](https://github.com/ward208k/CS207_Project/blob/master/images/Valve_Idle.jpg)
+
+![alt tag](https://github.com/ward208k/CS207_Project/blob/master/images/Valve_Push.jpg)
+
+![alt tag](https://github.com/ward208k/CS207_Project/blob/master/images/Valve_Pull.jpg)
+
 # Team
 =====
 
