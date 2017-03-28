@@ -42,7 +42,7 @@ Bill of Materials for V2.0:
 * 4 x 1/4" NPT speed controller
 * 16 x 1/4" Hose to screw adapter
 * 1 x Air compresser and a air compresser to 1/4" tube adapter (varies based on your compresser)
-* 8 x Darlington resistors (anything that can go over 10A and 12V)
+* 1 x 8 Channel relay (5v signal, and up to 12v 10A in/out)
 
 # Build Instructions
 ==================
@@ -95,7 +95,11 @@ Body Building:
 3. Cut a 14x14in square for the top.
 4. Assemble it all together with screws or nails and glue.
 5. Attach the pistons using 'strap-it' and screws so that it just touches the ground when fully extended.  Mount the valves on the top of the body a reasonable distance from both the center and the edge.  You will have to fit both the power supply and the arduino on as well, so think ahead.
+6. Once that is all attached, go ahead and test it with all the valves connected.
 
+Arduino Connection and Code:
+(will upload image soon)
+I dont have this working myself yet, but when I do, I will upload it here.
 # Usage
 =====
 
