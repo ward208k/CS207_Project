@@ -31,18 +31,18 @@ Bill of Materials for V1.0:
 * 1 x Arduino UNO
 
 Bill of Materials for V2.0:
-* a reasonable ammount of air hose (1/4")
-* 1 x 9 volt- 5 way 2 state solenoid valve (cic 4V220-08FT)
-* 1 x Momentary toggle switch (ON - OFF - ON)
-* 1 x 9 battery (and a 9 volt battery connecter, although you can hardwire it)
+* a reasonable ammount of air hose (1/4").  I used about 10 ft
+* 4 x 12 volt- 5 way 2 state solenoid valve (cic 4V220-08FT)
+* 1 x Computer power supply (ATX power supply -will give specific when I have it-
 * 5 ft Red wire (16 - 20 Gauge)
 * 5 ft Black wire (16 - 20 Gauge)
 * 1 x Phillips screwdriver 
-* 1 x MAL 20 x 150 pnumatic piston (cic 8188195)
-* 2 x Pnumatic scilencers
-* 3 x 1/4" NPT speed controller
-* 1 x 1/4" Hose to screw adapter
+* 4 x MAL 20 x 150 pnumatic piston (cic 8188195)
+* 8 x Pnumatic scilencers
+* 4 x 1/4" NPT speed controller
+* 16 x 1/4" Hose to screw adapter
 * 1 x Air compresser and a air compresser to 1/4" tube adapter (varies based on your compresser)
+* 8 x Darlington resistors (anything that can go over 10A and 12V)
 
 # Build Instructions
 ==================
@@ -76,12 +76,25 @@ The above code should now be uploaded and exhibit basic input/output
 
 V2:
 
-
 //![alt tag](https://github.com/ward208k/CS207_Project/blob/master/images/V2-0.jpg)
 
 Solenoid valve setup:
+(will upload imnage soon)
 1. I would recommend watching this video as it explains how to wire a solonoid valve correctly
 [![valves](http://img.youtube.com/watch?v=_tby5VuvNuk)](https://www.youtube.com/watch?v=_tby5VuvNuk)
+2. (optional) After you have wired your solenoid controls, you should solder an arduino pin to the exposed wire.  This is optional, but very helpful in the long run.
+3. At this point, you should prep your air flow system.  You want to screw in a hose adapter to the middle hold of each valve, and two scilencers in the holes on either side.  Attach two more hose adapters to the holes on 'top'.  Attach one speed control valve to the top of the piston (the non-punchey end), and a regular adapter to the other end.  Be sure to teflon tape all the valves, but not the scilencers.
+4. Cut the hose in about 1ft lengths until you have 12 lengths of hose.  Connect using hose the 'top' of the valves and the two piston valves.  It does not matter what port hooks to what adapter, as long as you know what one does what when you program your board.
+5. You should test each valve independantly before attaching them all together, so hook up the air compressor and press the test buttons on the valve and see if it works.
+6. If all 4 valves work, then you are good to mount them to the body of the robot, which will be the next section.
+
+Body Building:
+(will upload image soon)
+1. Cut 2 12in length of 2/4 wood, and 2 14in lengths of it.
+2. Cut 4 'legs' that can be any dimention as long as your pistons touch the ground.  This will vary based on the pistons you bought and how offset your pistons will be.
+3. Cut a 14x14in square for the top.
+4. Assemble it all together with screws or nails and glue.
+5. Attach the pistons using 'strap-it' and screws so that it just touches the ground when fully extended.  Mount the valves on the top of the body a reasonable distance from both the center and the edge.  You will have to fit both the power supply and the arduino on as well, so think ahead.
 
 # Usage
 =====
