@@ -106,11 +106,15 @@ I dont have this working myself yet, but when I do, I will upload it here.
 V1:
 This version is designed to show basic input/output of the Arduino system, lighting up an LED when
 you press a button.  This is mostly to get a feel for the input/output process and get an understanding
-of what the rest of the project will focus on, as well as making a modular system.  I build this version
-on two seperate breadboards (three technically, but one is attached to the Arduino its self), and will 
-re-use the buttons for V2, and the LED array for V3.  This build can be completely skipped if the maker
-is confident with his/her ability to understand input/output.
+of what the rest of the project will focus on, as well as making a modular system.  I built this version
+on two seperate breadboards (three technically, but one is attached to the Arduino its self).  This build
+can be completely skipped if the maker is confident with his/her ability to understand input/output.
 
+V2:
+This version is just the valve setup and body building.  Used specifically for testing to see if the valves
+all are working properly and that everything is connected correctly.  Simply press the test buttons on each
+valve and see if you get feedback.  You can also use a 9 volt battery to test the wires, although you will
+not be able to use a 9 volt battery for the final project.
 
 # Team
 =====
