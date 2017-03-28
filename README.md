@@ -45,7 +45,6 @@ Bill of Materials for V2.0:
 * 1 x 8 Channel relay (5v signal, and up to 12v 10A in/out)
 
 # Build Instructions
-==================
 V1:
 
 
@@ -76,7 +75,7 @@ The above code should now be uploaded and exhibit basic input/output
 
 V2:
 
-//![alt tag](https://github.com/ward208k/CS207_Project/blob/master/images/V2-0.jpg)
+![alt tag](https://github.com/ward208k/CS207_Project/blob/master/images/V2-0.jpg)
 
 Solenoid valve setup:
 (will upload imnage soon)
