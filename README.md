@@ -20,7 +20,8 @@ This will need more parts as it progresses however.
 So this section will be updated often.
 
 Dependencies:
-* None Yet  ( ._.)
+* The Arduino IR library          https://github.com/z3t0/Arduino-IRremote
+* ATX power supply spec sheet     http://www.formfactors.org/developer%5Cspecs%5Catx2_2.PDF
 
 Bill of Materials for V1.0:
 * 4 x Push Buttons
@@ -33,7 +34,7 @@ Bill of Materials for V1.0:
 Bill of Materials for V2.0:
 * a reasonable ammount of air hose (1/4").  I used about 10 ft
 * 4 x 12 volt- 5 way 2 state solenoid valve (cic 4V220-08FT)
-* 1 x Computer power supply (ATX power supply -will give specific when I have it-
+* 1 x Computer power supply (ATX power supply)
 * 5 ft Red wire (16 - 20 Gauge)
 * 5 ft Black wire (16 - 20 Gauge)
 * 1 x Phillips screwdriver 
@@ -43,6 +44,8 @@ Bill of Materials for V2.0:
 * 16 x 1/4" Hose to screw adapter
 * 1 x Air compresser and a air compresser to 1/4" tube adapter (varies based on your compresser)
 * 1 x 8 Channel relay (5v signal, and up to 12v 10A in/out)
+* 1 x IR reciever (VS 1838B)
+* 1 x IR remote (I used a SEIKI TV remote, but any IR remote with at least 4 buttons will work)
 
 # Build Instructions
 V1:
@@ -67,7 +70,7 @@ The above steps should give you 4 independant LEDs in an array formation
 
 Code:
 
-1. Download V1.X from the Build/V1 list (where X is the greatest number uploaded)
+1. Download V1 from the Build folder
 2. Swap the pin constants at the start of the code to what you set up
 3. Upload the file to your Arduino
 The above code should now be uploaded and exhibit basic input/output
@@ -96,9 +99,30 @@ Body Building:
 5. Attach the pistons using 'strap-it' and screws so that it just touches the ground when fully extended.  Mount the valves on the top of the body a reasonable distance from both the center and the edge.  You will have to fit both the power supply and the arduino on as well, so think ahead.
 6. Once that is all attached, go ahead and test it with all the valves connected.
 
+Power Notes:
+This project requires 12V at 1A, someting that the Arduino UNO is not able to produce or handle.  To overcome this, I am using a PC power supply.  Specifically an ATX model.  Linked in the dependancies and included in the Hardware section is the specsheet that you should read over before doing anything with this power supply.  If you want to use another type of power supply, be sure to do your research first, and find the spec sheets.
+
+Arduino Build:
+(Upload a pic goddamnit!)
+1. Attach an IR reciever to a breadboard, and note the orentation of it.
+2. Find what pin is GND, Power, and Data.  This will vary based on the reciever, but can be found with a quick google.
+3. Attach pins 12,11,10, and 9 to the I1, I2, I3, and I4 pins on the relay.  The order does not matter, as we will mark each one later.
+4. Attach 5V from the Arduino to the VCC pin on the relay, and the Gnd to Gnd.
+5. Take the 12V wire from your power supply and plug it into the common slot (middle usually) on the relay.
+6. Plug the two positive ends of the valves to either side of the relay.  You may need to re-do this if the pistons are active extended.  The goal is to have the relay passively pull the pistons, and push when you trigger them.
+7. Plug the two negative ends of the valves to the power supply ground.
+8. Apply power to the power supply and the arduino and test it out using a basic blink sketch (targeting pins 12,11,10 and 9)
+
 Arduino Connection and Code:
-(will upload image soon)
-I dont have this working myself yet, but when I do, I will upload it here.
+1. Download V2 from the Build folder
+2. Swap the pin constants at the start of the code to what you set up your pins to be
+3. You will have to test what values your IR remote returns, as this sketch will only work with a specific TV remote (see image and part list).  This can be done by using the IR tester sketch included in the Build folder.
+4. Once you have your remote's numbers figured out, go ahead and test the serial console and see if you get the correct outputs.
+5. If you do, then upload it to your arduino and test it out with power and air.
+
+Good Job!  You did it!  You finished the Dance Dance Bot!
+
+
 # Usage
 =====
 
@@ -122,6 +146,9 @@ The valves work in three states: idle, push and pull.  See below for the diagram
 ![alt tag](https://github.com/ward208k/CS207_Project/blob/master/images/Valve_Push.jpg)
 
 ![alt tag](https://github.com/ward208k/CS207_Project/blob/master/images/Valve_Pull.jpg)
+
+Final:
+This is after you have the IR system, air system, and power system all working in harmony.  You should be able to press the buttons on your remote that you bound and see the pistons move in responce.  Now all that is left to do is to power up your Wii and let your lazy efforts pay off.
 
 # Team
 =====
