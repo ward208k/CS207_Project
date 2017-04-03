@@ -81,9 +81,9 @@ V2:
 ![alt tag](https://github.com/ward208k/CS207_Project/blob/master/images/Final.jpg)
 
 Solenoid valve setup:
-![alt tag](https://github.com/ward208k/CS207_Project/blob/master/images/Top View.jpg)
+![alt tag](https://github.com/ward208k/CS207_Project/blob/master/images/TopView.jpg)
 1. I would recommend watching this video as it explains how to wire a solonoid valve correctly
-![valves](http://img.youtube.com/watch?v=_tby5VuvNuk)](https://www.youtube.com/watch?v=_tby5VuvNuk)
+![valves][(http://img.youtube.com/watch?v=_tby5VuvNuk)](https://www.youtube.com/watch?v=_tby5VuvNuk)
 2. (optional) After you have wired your solenoid controls, you should solder an arduino pin to the exposed wire.  This is optional, but very helpful in the long run.
 3. At this point, you should prep your air flow system.  You want to screw in a hose adapter to the middle hold of each valve, and two scilencers in the holes on either side.  Attach two more hose adapters to the holes on 'top'.  Attach one speed control valve to the top of the piston (the non-punchey end), and a regular adapter to the other end.  Be sure to teflon tape all the valves, but not the scilencers.
 4. Cut the hose in about 1ft lengths until you have 12 lengths of hose.  Connect using hose the 'top' of the valves and the two piston valves.  It does not matter what port hooks to what adapter, as long as you know what one does what when you program your board.
@@ -102,7 +102,7 @@ Power Notes:
 This project requires 12V at 1A, someting that the Arduino UNO is not able to produce or handle.  To overcome this, I am using a PC power supply.  Specifically an ATX model.  Linked in the dependancies and included in the Hardware section is the specsheet that you should read over before doing anything with this power supply.  If you want to use another type of power supply, be sure to do your research first, and find the spec sheets.
 
 Arduino Build:
-![alt tag](https://github.com/ward208k/CS207_Project/blob/master/images/IR board.jpg)
+![alt tag](https://github.com/ward208k/CS207_Project/blob/master/images/IRboard.jpg)
 1. Attach an IR reciever to a breadboard, and note the orentation of it.
 2. Find what pin is GND, Power, and Data.  This will vary based on the reciever, but can be found with a quick google.
 3. Attach pins 12,11,10, and 9 to the I1, I2, I3, and I4 pins on the relay.  The order does not matter, as we will mark each one later.
