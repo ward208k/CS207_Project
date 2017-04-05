@@ -8,7 +8,7 @@ Here is a list of all the contents of this project:
 
 * **/hardware** - All the design files and circuit diagrams.
 * **/images** - Where all the images are stored.
-* **/results** - All the test videos and results.
+* **/results** - All the test video links and results.
 * **/build** - The completed arduino files.
 * **/README.md** - The README file.
 
