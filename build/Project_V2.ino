@@ -12,11 +12,16 @@
 #include <IRremote.h>
 
 //Var init
-int IRPin = 5;
-int upPin=12;
-int rightPin=11;
-int leftPin=10;
-int downPin=9;
+const int up =    1086198509     // change this to your remote's 'UP' value
+const int right = 1086231149     // change this to your remote's 'RIGHT' value
+const int left =  1086222989     // change this to your remote's 'LEFT' value
+const int down =  1086239309     // change this to your remote's 'DOWN' value
+
+const int IRPin = 5;
+const int upPin=12;
+const int rightPin=11;
+const int leftPin=10;
+const int downPin=9;
 
 int leftTime = 0;
 int rightTime = 0;
@@ -31,7 +36,7 @@ decode_results results;
 void setup()
 {
   Serial.begin(9600);
-  irrecv.enableIRIn();  // Start the receiver
+  irrecv.enableIRIn();    // Start the receiver
   pinMode(upPin, OUTPUT);
   pinMode(leftPin, OUTPUT);
   pinMode(rightPin, OUTPUT);
@@ -40,38 +45,41 @@ void setup()
 
 void loop() {
   if (irrecv.decode(&results)) {
-    //Serial.println(results.value);
+    Serial.println(results.value);
 
-    if (results.value == 1086198509){
+    if (results.value == up ){
       //If up pushed... change state and set time
       Serial.println("2 - UP");
-      upTime=750;
+      upTime=650;
     }
 
-    if (results.value == 1086231149){
+    if (results.value == right ){
+      //If right pushed... change state and set time
       Serial.println("6 - RIGHT");
-      rightTime=750;
+      rightTime=650;
     }
 
-    if (results.value == 1086222989){
+    if (results.value == left ){
+      //If left pushed... change state and set time
       Serial.println("4 - LEFT");
-      leftTime=750;
+      leftTime=650;
     }
 
-    if (results.value == 1086239309){
+    if (results.value == down ){
+      //If down pushed... change state and set time
       Serial.println("8 - DOWN");
-      downTime=750;
+      downTime=650;
     }
     
-  irrecv.resume(); // Receive the next value
+  irrecv.resume();   // Receive the next IR value
   }
   
   delay(1);
 
-  if (upTime>0){
+  if (upTime>0){    //While counter is live, power valve and extend piston.
     upTime--;
     digitalWrite(upPin, HIGH);
-  }else{
+  }else{            //While counter is dead, close valve and retract piston.
     digitalWrite(upPin, LOW);
   }
 
